@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Operators</title>
+</head>
+<script>
+  // Arthematic opreator
+
+  const sum = 5 + 6;
+  const diff = 7 - 2;
+  const mul = 3 * 5;
+  const div = 10 / 5;
+  console.log(sum, diff, mul, div);
+
+
+  // assignment operator
+
+  let n = 10;
+  n += 5;
+  n *= 2;
+  console.log(n);
+
+
+  //comparison operator
+
+  //equals to operator
+
+  // same value, same type
+  console.log(5 == 5);
+
+  //Same value, Different types
+  console.log(5 == "5")
+
+  //Different value, same type
+  console.log("Hi" == "hi")
+
+
+
+  //not equals to operator
+
+  // same value, same type
+  console.log(2 != 2);
+  // same value, different type
+  console.log(2 != "2");
+
+  // different value, same type
+  console.log(2 != 3);
+
+
+  //Strict equals to operator
+
+  // same value, same type
+  console.log(2 === 2);
+
+  // same value, different type
+  console.log(2 === "2");
+
+
+  //Greater than operator
+
+  // left operand is greater
+  console.log(3 > 2);
+  // both operands are equal
+  console.log(4 > 4);
+  // left operand is smaller
+  console.log(2 > 5);
+
+
+
+  //less than operator
+
+  // left operand is smaller
+  console.log(2 < 5);
+  // both operands are equal
+  console.log(4 < 4);
+
+  // left operand is greater
+  console.log(3 < 2);
+
+  //logical operator
+
+  const q = 5, y = 3;
+
+  console.log((q < 6) && (y < 5));
+
+
+
+  //Ternary Operator
+
+  const age = 18;
+  const status = age >= 18 ? "Adult" : "Minor";
+  console.log(status);
+
+
+  //Unary Operator
+  let x = 5;
+  console.log(++x); // Pre-increment
+  console.log(x--); // Post-decrement (Output: 6, then x becomes 5)
+
+
+
+
+
+</script>
+</body>
+
+</html>
