@@ -48,8 +48,8 @@ do {
 
 
 
-/*Key Differences Between Loops
-Loop Type	When to Use
-for loop	When you know how many times you need to run the loop.
-while loop	When you don’t know how many times the loop should run, but it depends on a condition.
-do...while loop	When you want to run the code at least once before checking the condition.*/
+// Key Differences Between Loops
+// Loop Type	When to Use
+// for loop	When you know how many times you need to run the loop.
+// while loop	When you don’t know how many times the loop should run, but it depends on a condition.
+//     do...while loop	When you want to run the code at least once before checking the condition.
